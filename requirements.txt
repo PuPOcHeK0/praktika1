@@ -1,0 +1,25 @@
+# === PyTorch с CUDA 12.1 ===
+# Устанавливается отдельно (см. ниже)
+# torch
+# torchvision
+# torchaudio
+
+# === Основные библиотеки ===
+ultralytics>=8.1.0
+opencv-python>=4.8.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+pillow>=10.0.0
+pycocotools>=2.0.7
+
+# === Hugging Face ===
+huggingface-hub>=0.20.0
+datasets>=2.14.0
+
+# === Утилиты ===
+pyyaml>=6.0
+requests>=2.31.0
